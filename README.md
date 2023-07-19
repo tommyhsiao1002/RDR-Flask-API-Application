@@ -148,7 +148,7 @@ After running seed_data.py
 
 - users table has a data "user_id=1, username='user1', password='12345678'"
 - books table has ten example book data
-- study_rooms table has six example study room data`
+- study_rooms table has six example study room data
 
 We can test the endpoint by either Postman or curl:
 
