@@ -2,6 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+# app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://user:password@localhost/db"
 app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://admin:admin1234@library-system.cmfgnyhl79y6.us-east-2.rds.amazonaws.com/test"
 db = SQLAlchemy(app)
 
