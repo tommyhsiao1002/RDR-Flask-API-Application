@@ -99,14 +99,14 @@ Before running this project, make sure you have the following prerequisites:
 1. Clone the repository
 
 ```shell
-  $ git clone https://github.com/tommyhsiao1002/RDR-Flask-API-Application.git
-  $ cd RDR-Flask-API-Application
+  git clone https://github.com/tommyhsiao1002/RDR-Flask-API-Application.git
+  cd RDR-Flask-API-Application
 ```
 
 2. Install the required dependencies
 
 ```shell
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
