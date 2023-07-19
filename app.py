@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:Tommy1002@localhost/data"
+# app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://user:password@localhost/db"
 app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://admin:admin1234@library-system.cmfgnyhl79y6.us-east-2.rds.amazonaws.com/test"
 
 
