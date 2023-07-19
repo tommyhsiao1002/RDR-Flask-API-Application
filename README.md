@@ -110,7 +110,7 @@ $ pip install -r requirements.txt
 ```
 
 
-3. If you want to use your MySQL local database, make sure change this config line in app.py
+3. If you want to use your MySQL local database, make sure change this config line in app.py and seed_data.py
 
 ```python
 app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://admin:admin1234@library-system.cmfgnyhl79y6.us-east-2.rds.amazonaws.com/library"
